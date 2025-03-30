@@ -1,0 +1,97 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #121212;
+  color: #ffffff;
+  display: flex;
+}
+
+/* Sidebar Navigation */
+header {
+  width: 250px;
+  height: 100vh;
+  background-color: #1e1e1e;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo {
+  font-size: 50px;
+  font-weight: bold;
+  color: #00ffcc; /* Neon effect */
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 50px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #00ffcc;
+}
+
+/* Main Content */
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px;
+  text-align: left;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+h1 span {
+  color: #00ffcc;
+}
+
+p {
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+/* Contact Button */
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: 2px solid #00ffcc;
+  color: #00ffcc;
+  text-decoration: none;
+  font-size: 18px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #00ffcc;
+  color: #121212;
+}
+.social-icons a {
+  color: #00ffcc;
+  font-size: 24px;
+  transition: color 0.3s;
+}
+
